@@ -1,5 +1,7 @@
-## Resume
+## Personal Website
 
-My Resume. https://udokah.github.io/resume/
+https://udokah.github.io/
+
+http://udoka.me/
 
 Deploy run `sh deploy.sh`
