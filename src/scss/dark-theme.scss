@@ -1,0 +1,16 @@
+.dark-theme {
+	$background: darken(#252627, 10%);
+	$color: darken(#e7e7e7, 4%);
+
+	background-color: $background;
+	color: $color;
+
+	.link-item {
+		color: $color;
+		border-color: $accent;
+		&:hover {
+			color: lighten($color, 29%);
+			border-color: transparent;
+		}
+	}
+}

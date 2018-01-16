@@ -1,0 +1,75 @@
+$pad: 3px;
+$margin: 3px;
+$rad: 3px;
+$textSize: 1rem;
+$pageSize: 1000px;
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	transition: 0.4s;
+}
+
+.container {
+	margin: ($margin * 37) auto;
+	padding: $pad * 10;
+	max-width: $pageSize;
+}
+
+.intro {
+	font-size: 2rem;
+}
+
+.tagline {
+	font-size: 1.98rem;
+	line-height: 1.6;
+	margin-top: $margin * 22;
+	font-weight: lighter;
+	strong {
+		font-weight: 700 !important;
+	}
+}
+
+.links {
+	display: block;
+	margin-top: $margin * 35;
+	display: flex;
+	justify-content: space-between;
+}
+
+.link-item {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid;
+	text-align: center;
+	padding: $pad 0;
+	white-space: nowrap;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	.mdi {
+		display: none;
+	}
+}
+
+.controls {
+	position: absolute;
+	top: $margin * 2;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	max-width: $pageSize;
+	padding: $pad * 6;
+	text-align: right;
+}
+
+.toggle-theme {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 115px;
+}

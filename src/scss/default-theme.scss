@@ -1,0 +1,16 @@
+.default-theme {
+	$background: #eee;
+	$color: #33333e;
+
+	background-color: $background;
+	color: $color;
+
+	.link-item {
+		color: $color;
+		border-color: $color;
+		&:hover {
+			color: lighten($color, 29%);
+			border-color: transparent;
+		}
+	}
+}
