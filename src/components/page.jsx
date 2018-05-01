@@ -35,7 +35,7 @@ class Page extends React.Component {
 						<a className="link-item" href="mailto:writeudo@gmail.com">
 							<i className="mdi mdi-email" /> <span>writeudo@gmail.com</span>
 						</a>
-						<a className="link-item" href="https://udokah.github.io/resume">
+						<a className="link-item" href="https://udoka.me/resume">
 							<i className="mdi mdi-briefcase" /> <span>Resume</span>
 						</a>
 						<a className="link-item" href="https://ng.linkedin.com/in/thisisudo">
