@@ -24,12 +24,16 @@ $pageSize: 1000px;
 }
 
 .tagline {
-	font-size: 1.98rem;
+	font-size: 1.78rem;
 	line-height: 1.6;
 	margin-top: $margin * 22;
 	font-weight: lighter;
 	strong {
 		font-weight: 700 !important;
+	}
+	a {
+		text-decoration: underline;
+		color: inherit;
 	}
 }
 

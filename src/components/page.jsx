@@ -27,8 +27,10 @@ class Page extends React.Component {
 					<header>
 						<h1 className="intro">Hello!</h1>
 						<h2 className="tagline">
-							I'm <strong>Udo Nkwocha</strong>, a front-end software engineer with an eye for design and experience developing database applications, currently focused on building beautiful
-							and intuitive interfaces.
+							I'm <strong>Udo Nkwocha</strong>, a software engineer with full-stack experience but currently focused on the front-end. 
+							I have a keen eye for detail & an aesthetic sense. Recently I have been focused on building
+							interfaces that are <strong>performant</strong> while offering a wonderful user experience, and 
+							improving my knowledge of <a href="https://github.com/Udokah/javascript-playground">computer science fundamentals</a>.
 						</h2>
 					</header>
 					<nav className="links">

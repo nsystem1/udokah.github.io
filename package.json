@@ -12,7 +12,9 @@
 		"type": "git",
 		"url": "git+https://github.com/Udokah/udoka.me.git"
 	},
-	"keywords": ["Personal website"],
+	"keywords": [
+		"Personal website"
+	],
 	"author": "Udo Nkwocha",
 	"license": "ISC",
 	"bugs": {
